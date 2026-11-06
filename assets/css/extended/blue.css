@@ -1,0 +1,81 @@
+/* Colourblind-safe palette (based on Okabe-Ito), tuned to the photo:
+   blue family for structure and links, warm amber that echoes the photo's wall.
+   Blue and orange stay distinguishable for protanopia, deuteranopia and tritanopia. */
+:root {
+    --theme: #fdfbf6;      /* warm off-white, close to the shirt */
+    --entry: #ffffff;
+    --primary: #0b2545;    /* navy: headings */
+    --secondary: #4b5563;
+    --tertiary: #d9e6f2;
+    --content: #1f2937;
+    --code-bg: #eef4fa;
+    --border: #e5e1d8;
+    --blue: #0072b2;       /* Okabe-Ito blue: links, accents */
+    --navy: #0b2545;
+    --amber: #e69f00;      /* Okabe-Ito orange: highlights */
+    --amber-soft: #fdf1d8;
+    --blue-soft: #e3f0f9;
+    --grad: linear-gradient(110deg, #0b2545 0%, #0072b2 55%, #e69f00 100%);
+}
+:root[data-theme="dark"] {
+    --theme: #0e1621;
+    --entry: #15202e;
+    --primary: #eef3f8;
+    --secondary: #a7b3c2;
+    --tertiary: #23324a;
+    --content: #d5dde7;
+    --code-bg: #1b2738;
+    --border: #253246;
+    --blue: #56b4e9;       /* Okabe-Ito sky blue reads better on dark */
+    --amber: #f0b429;
+    --amber-soft: #3a2f17;
+    --blue-soft: #16304a;
+}
+.list { background: var(--theme); }
+
+/* gradient stripe above the header */
+body::before { content: ""; display: block; height: 5px; background: var(--grad); }
+
+/* links and menu */
+.post-content a, .profile_inner span a { color: var(--blue); box-shadow: none; text-decoration: underline; text-underline-offset: 3px; }
+#menu a:hover, .logo a:hover { color: var(--blue); }
+#menu .active { border-bottom: 3px solid var(--amber); }
+
+/* profile (home) */
+.profile img { border-radius: 50%; padding: 4px; background: var(--grad); object-fit: cover; }
+.profile_inner h1 { color: var(--primary); }
+.profile_inner span { max-width: 640px; color: var(--content); line-height: 1.65; }
+.profile .social-icons a svg { color: var(--blue); }
+
+/* buttons: all pass WCAG AA contrast; labels carry the meaning, not colour */
+.buttons { gap: 10px; max-width: none; }
+.button { background: #0072b2; border-radius: 10px; border: 0; transition: transform .12s, filter .12s; }
+.profile_inner .button-inner, .profile_inner .button span { color: #fff !important; font-weight: 600; max-width: none; }
+.button:hover { transform: translateY(-2px); background: #005a8c; }
+
+/* list cards (papers) */
+.post-entry { border: 1px solid var(--border); border-left: 4px solid var(--blue); border-radius: 12px; box-shadow: 0 4px 16px rgba(11,37,69,.06); }
+.post-entry:hover { transform: translateY(-2px); border-left-color: var(--amber); }
+.entry-header h2 { color: var(--primary); }
+.entry-content { color: var(--secondary); }
+.page-header h1 { color: var(--primary); }
+
+/* headings inside pages */
+.post-content h2 { color: var(--primary); display: flex; align-items: center; gap: 10px; }
+.post-content h2::before { content: ""; width: 22px; height: 4px; border-radius: 2px; background: var(--amber); flex: none; }
+
+/* pill links used in paper pages */
+.post-content a.pill { display: inline-block; text-decoration: none; background: var(--blue-soft); color: var(--blue);
+    padding: 4px 14px; border-radius: 999px; font-size: .85em; font-weight: 600; margin: 0 6px 6px 0; }
+.post-content a.pill:hover { background: var(--blue); color: #fff; }
+:root[data-theme="dark"] .post-content a.pill:hover { color: #0e1621; }
+
+/* paper pages: figure and abstract */
+.post-content figure { margin: 28px 0; }
+.post-content figure img { max-width: 600px; width: 100%; display: block; margin: 0 auto; border-radius: 8px; border: 1px solid var(--border); background: #fff; }
+.post-content figure figcaption { color: var(--secondary); font-size: .88em; text-align: center; margin-top: 8px; }
+.abstract { background: var(--entry); border: 1px solid var(--border); border-left: 4px solid var(--amber); border-radius: 10px; padding: 18px 22px; margin: 18px 0; }
+
+/* tables in paper pages */
+.post-content table { font-size: .9em; }
+.post-content table th, .post-content table td { padding: 6px 10px; }

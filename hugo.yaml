@@ -1,0 +1,94 @@
+# Site configuration. Change baseURL if your GitHub username changes.
+baseURL: "https://sarasti2.github.io/"
+locale: en-US
+title: Alejandro Sarasti Sierra
+theme: PaperMod
+enableRobotsTXT: true
+
+pagination:
+  pagerSize: 20
+
+params:
+  env: production
+  description: "Alejandro Sarasti Sierra, M.A. student in Economics at Universidad de los Andes. Research on demographic change, labor markets and firm productivity in Colombia."
+  defaultTheme: auto          # light / dark following the visitor's system
+  disableThemeToggle: false
+  DateFormat: "2006"          # show only the year
+  ShowReadingTime: false
+  ShowWordCount: false
+  ShowShareButtons: false
+  ShowPostNavLinks: false
+  ShowBreadCrumbs: false
+  ShowCodeCopyButtons: false
+  ShowRssButtonInSectionTermList: false
+  hideFooter: false
+  
+  assets:
+    favicon: "favicon.ico"
+    favicon16x16: "favicon-16x16.png"
+    favicon32x32: "favicon-32x32.png"
+    apple_touch_icon: "apple-touch-icon.png"
+    safari_pinned_tab: "favicon-32x32.png"
+
+  profileMode:
+    enabled: true
+    title: Alejandro Sarasti Sierra
+    subtitle: >-
+      I am an M.A. student in Economics at the **Universidad de los Andes**, with a background
+      in systems engineering. I have worked on the measurement of municipal informality, gender
+      gaps and long-run demographic change at Banco de la República, and on firm productivity
+      using administrative data at the World Bank. My interests are demographic
+      dynamics, gender and development, and computational methods for working with scarce or
+      imperfect data.
+    imageUrl: photo.jpg
+    imageWidth: 170
+    imageHeight: 170
+    imageTitle: Alejandro Sarasti Sierra
+    buttons:
+      - name: Publications
+        url: papers/
+      - name: Work in progress
+        url: wip/
+      - name: Experience
+        url: experience/
+      - name: Teaching
+        url: teaching/
+
+  socialIcons:
+    - name: email
+      url: "mailto:sarasti1907@gmail.com"
+    - name: github
+      url: "https://github.com/sarasti2"
+    - name: cv
+      url: "cv.pdf"
+    # Uncomment and fill in when you have them:
+    # - name: googlescholar
+    #   url: "https://scholar.google.com/citations?user=XXXX"
+    # - name: orcid
+    #   url: "https://orcid.org/0000-0000-0000-0000"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/alejandro-sarasti-sierra-37ab24283/"
+
+menu:
+  main:
+    - name: Publications
+      url: papers/
+      weight: 1
+    - name: Work in progress
+      url: wip/
+      weight: 2
+    - name: Experience
+      url: experience/
+      weight: 3
+    - name: Teaching
+      url: teaching/
+      weight: 4
+    - name: CV
+      url: cv.pdf
+      weight: 5
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+      hardWraps: true
