@@ -30,7 +30,7 @@ Coursework completed; thesis pending.
 IX Congreso de Economía Colombiana, Universidad de los Andes, Bogotá · *Oct 2026*
 
 **Brechas de género en las dinámicas demográficas: implicaciones para la economía colombiana**
-POPULORUM 2026, Universidad Externado de Colombia, Bogotá · *Apr 2026* · presented by J. Jaramillo-Echeverri
+POPULORUM 2026, Universidad Externado de Colombia, Bogotá · *Apr 2026* 
 
 ## Awards
 
