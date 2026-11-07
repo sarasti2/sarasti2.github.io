@@ -5,8 +5,7 @@ hideMeta: true
 
 ## Positions
 
-**Project Manager**, *Atención en el Aula* (Attention in the Classroom), Universidad de los Andes · *Oct 2026 – present*
-Research project with six principal investigators on how mobile devices affect student attention, using a randomized design across course sections. I lead the classroom video-processing pipeline: computer-vision measurement of attention with EduSense, large-scale video processing on the university's high-performance computing (HPC) cluster, a privacy-preserving design that stores only attention metrics and no images, and the choice of cameras and lenses for the 2027 rollout.
+
 
 **Research Assistant**, World Bank · *Jan 2025 – present*
 Firm-level financial datasets and econometric work on business dynamism and productivity in Colombia.
