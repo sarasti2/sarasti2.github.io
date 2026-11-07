@@ -6,7 +6,6 @@ summary: "with Juliana Jaramillo-Echeverri and Luz Adriana Flórez · Banco de l
 
 **Authors:** Juliana Jaramillo-Echeverri, Alejandro Sarasti Sierra and Luz Adriana Flórez
 
-**Series:** *Documentos de Trabajo sobre Economía Regional y Urbana*, Banco de la República (forthcoming)
 
 <div class="abstract">
 
