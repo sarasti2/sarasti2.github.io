@@ -33,10 +33,12 @@ Coursework completed; undergraduate thesis in progress: *Interpretability of Lan
 *Cambio demográfico en las regiones de Colombia*
 Authors' workshop, volume on 30 years of the CEER, Banco de la República, Bogotá · *Nov 2026*
 
+
 **Gender Inequality and Demographic Change: Implications for Long-Run Growth**, with J. Jaramillo-Echeverri and L. A. Flórez
 *Desigualdad de género y cambio demográfico: implicaciones para el crecimiento de largo plazo*
 IX Congreso de Economía Colombiana, Universidad de los Andes, Bogotá · *Oct 2026*
 POPULORUM 2026, Universidad Externado de Colombia, Bogotá · *Apr 2026* · earlier version: *Gender Gaps in Demographic Dynamics* (*Brechas de género en las dinámicas demográficas*)
+
 
 ## Awards
 
