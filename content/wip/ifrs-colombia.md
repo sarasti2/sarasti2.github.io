@@ -4,7 +4,7 @@ date: 2026-09-24
 summary: "M.A. thesis, Universidad de los Andes · Advisor: Christian Posso (Banco de la República) · IFRS adoption in Colombia, credit and productivity"
 ---
 
-**Authors:** Alejandro Sarasti-Sierra, Christian Posso
+**Author:** Alejandro Sarasti-Sierra
 
 **M.A. thesis**, Universidad de los Andes · Advisor: Christian Posso, Principal Economist, Banco de la República
 

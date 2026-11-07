@@ -1,7 +1,7 @@
 ---
 title: "Gender Inequality and Demographic Change: Implications for Long-Run Growth"
 date: 2026-10-01
-summary: "with Juliana Jaramillo-Echeverri and Luz Adriana Flórez "
+summary: "with Juliana Jaramillo-Echeverri and Luz Adriana Flórez · Banco de la República working paper (Documentos de Trabajo sobre Economía Regional y Urbana)"
 ---
 
 **Authors:** Juliana Jaramillo-Echeverri, Alejandro Sarasti Sierra and Luz Adriana Flórez
@@ -25,4 +25,4 @@ summary: "with Juliana Jaramillo-Echeverri and Luz Adriana Flórez "
 ### Presentations
 
 - IX Congreso de Economía Colombiana, Universidad de los Andes, Bogotá, October 2026
-- POPULORUM 2026, III Congreso Nacional de la Asociación Colombiana de Demografía, Población y Desarrollo, Universidad Externado de Colombia, Bogotá, April 2026 (earlier version, presented by J. Jaramillo-Echeverri)
+- POPULORUM 2026, III Congreso Nacional de la Asociación Colombiana de Demografía, Población y Desarrollo, Universidad Externado de Colombia, Bogotá, April 2026 (earlier version)
